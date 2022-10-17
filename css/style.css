@@ -1,0 +1,136 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.input-form{
+    border: 1px solid black;
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+/* .title{
+    text-align: center;
+  } */
+  .btn{
+    margin-top: 10px;
+  }
+  .wrapper{
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  .being-choosen {
+    height: 70px;
+    
+}
+
+.being-choosen-com {
+    height: 70px;
+    
+}
+.container {background-color: #9C835F;
+            position: absolute;
+            width: 1440px;
+            height: 1024px;
+            left: 0px;
+            top: 0px;
+}
+
+p.toptext { font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 49px;
+            color: #F9B23D;
+}
+
+p.vs {  position: absolute;
+        width: 296px;
+        height: 186px;
+        left: 589px;
+        top: 279px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 144px;
+        line-height: 196px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color:red;
+}
+
+p.player{position:absolute;
+        top: 162px;
+        left: 296px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;}
+
+img.kika1{position:absolute;
+        width: 128px;
+        height: 92px;
+        top: 267px;
+        left: 382px;}
+
+img.kika2{position:absolute;
+        top: 671px;
+        left: 369px;
+        width: 134px;
+        height: 160px;;}
+
+img.kika3{position:absolute;
+        top: 440px;
+        left: 388px;
+        width: 115px;
+        height: 150px;}
+
+p.computer{position:absolute;
+        left: 865px;
+        top: 162px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;}
+
+img.kaki1{position:absolute;
+        width: 128px;
+        height: 92px;
+        left: 951px;
+        top: 267px;}
+
+img.kaki2{position:absolute;
+        width: 115px;
+        height: 150px;
+        left: 951px;
+        top: 671px;}
+
+img.kaki3{position:absolute;
+        width: 134px;
+        height: 160px;
+        left: 970px;
+        top: 440px;}
+
+h1  {text-align: center}
+
+img.teki1 { position:absolute;
+            width: 500px;
+            height: 400px;
+            left: 500px;
+            top: 301px;}
+
+img.teki2 { position:absolute;
+            width: 77px;
+            height: 71px;
+            left: 671px;
+            top: 791px;}

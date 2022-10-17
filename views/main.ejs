@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game SUIT JAWA</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+          <nav>
+            <div>
+                <a>   
+                    <p class="toptext"><span>?</span><img src="../assets/logo_1.png" width="25px" height="25px">Rock Paper Scissors</p>
+                </a>
+            </div>
+           </nav>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <p class="player"><b>PLAYER 1</b></p>
+                </div>
+                <div id="user-batu" class="row">
+                    <a href="#" onclick="userChoose('batu')"><img src="../assets/batu.png" id="resultbatu" class="kika1" width="50px" height="50px"></a>
+                </div>
+                <br><br><br>
+                <div id="user-gunting" class="row">
+                    <a href="#" onclick="userChoose('gunting')"><img src="../assets/gunting.png" id="resultgunting" class="kika2" width="50px" height="50px"></a>
+                </div>
+                <br><br><br>
+                <div id="user-kertas" class="row">
+                    <a href="#" onclick="userChoose('kertas')"><img src="../assets/kertas.png" id="resultkertas" class="kika3" width="50px" height="50px"></a>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div id="win-display" class="row"></div>
+            </div>
+            <div id="versus">
+                <p class="vs">VS</p>
+            </div>
+            
+            <div class="col">
+                <div class="row">
+                    <p class="computer"><b>COMPUTER</b></p>
+                </div>
+                <div class="row" id="com-batu">
+                    <a href="#"><img src="../assets/batu.png" id="resultbatu1" class="kaki1" width="50px" height="50px"></a>
+                </div>
+                <br><br><br>
+                <div class="row" id="com-gunting">
+                    <a href="#"><img src="../assets/gunting.png" id="resultgunting1" class="kaki2" width="50px" height="50px"></a>
+                </div>
+                <br><br><br>
+                <div class="row" id="com-kertas">
+                    <a href="#"><img src="../assets/kertas.png" id="resultkertas1" class="kaki3" width="50px" height="50px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
+    
+</body>
+</html>
