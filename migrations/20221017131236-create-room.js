@@ -9,13 +9,22 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       name: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: {
+          is: /^[0-9a-f]{64}$/i
+        }
       },
-      player_one_id: {
-        type: Sequelize.STRING
-      },
-      player_two_id: {
-        type: Sequelize.STRING
+      player_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: {
+            tableName: "Users"
+          },
+          key: "id",
+          onUpdate: 'CASCADE',
+          onDelete: 'CASCADE',
+        }
       },
       createdAt: {
         allowNull: false,

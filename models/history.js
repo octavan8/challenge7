@@ -11,11 +11,13 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      History.belongsTo(models.User)
     }
   }
   History.init({
     status: DataTypes.STRING,
-    score: DataTypes.STRING
+    score: DataTypes.INTEGER,
+    player_id: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'History',

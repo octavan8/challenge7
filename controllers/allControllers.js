@@ -13,4 +13,5 @@ class allControllers {
         res.render("main")
     }
 }
+
 module.exports = allControllers

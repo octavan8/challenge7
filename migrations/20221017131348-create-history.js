@@ -12,7 +12,18 @@ module.exports = {
         type: Sequelize.STRING
       },
       score: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
+      },
+      player_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: {
+            tableName: "Users"
+          },
+          key: "id",
+          onUpdate: 'CASCADE',
+          onDelete: 'CASCADE',
+        }
       },
       createdAt: {
         allowNull: false,

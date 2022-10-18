@@ -5,7 +5,7 @@ const allControllers = require("../controllers/allControllers")
 
 route.get("/register", allControllers.renderRegister)
 route.get("/login", allControllers.renderLogin)
-route.get("/protected", allControllers.renderProtected)
-route.get("/main", allControllers.renderMain)
+route.get("/create-room", allControllers.renderProtected)
+route.get("/fight", allControllers.renderMain)
 
 module.exports = route
