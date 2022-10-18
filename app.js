@@ -3,7 +3,8 @@ const app = express()
 const port = 6060
 const router = require("./routes")
 
-app.use(express.urlencoded({extended:false}))
+app.use(express.json()) // for parsing application/json
+app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencode
 
 app.set('view engine', 'ejs')
 app.use('/css', express.static(__dirname+'/css'))
